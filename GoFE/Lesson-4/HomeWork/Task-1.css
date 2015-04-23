@@ -1,0 +1,30 @@
+div {
+    background-color: blueviolet;
+}
+
+nav {
+    width: 900px;
+    margin: 0 auto;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    font-family: Impact;
+    text-transform: uppercase;
+
+}
+
+a{
+    display:block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+a:hover {
+    background-color: darkgray;
+    color: dimgray;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5)
+}
+
