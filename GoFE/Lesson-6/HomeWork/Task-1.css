@@ -1,0 +1,151 @@
+.PriceContainer {
+    position: relative;
+    background-color: #ffffff;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.PriceContainerTitle {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.boxPricing {
+    display: inline-block;
+    width: 230px;
+    margin: 0 auto;
+    font-family: Trebuchet MS;
+    text-align: center;
+    border: 1px solid #C0C8CB;
+    border-radius: 7px;
+}
+
+.PriceBox1 {
+    position: relative;
+    left: 7px;
+}
+
+.PriceBox3 {
+    position: relative;
+    right: 7px;
+}
+
+.PriceBox2 {
+    border: 3px solid #ee8129;
+    box-shadow: 0 0 5px #83D4FF;
+    position: relative;
+    margin: 0;
+    z-index: 2;
+}
+
+.boxPricing-header {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+.PriceBox1 .boxPricing-header {
+    background-color: #37c2d3;
+    border-radius: 6px 6px 0 0;
+}
+
+.PriceBox2 .boxPricing-header {
+    background-color: #ee8129;
+    padding: 23px 0;
+}
+
+.PriceBox3 .boxPricing-header {
+    background-color: #1cb79a;
+    border-radius: 6px 6px 0 0;
+}
+
+.boxPricing-body {
+    margin: 0 10px;
+    background-color: #fff;
+}
+
+.namePlan {
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.pricePlan {
+    color: #35495a;
+    padding: 5px 0;
+}
+
+.currency, .price, .period {
+    display: inline;
+}
+
+.currency {
+    vertical-align: 28px;
+}
+
+.price {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.period {
+    vertical-align: -8px;
+    font-size: 15px;
+}
+
+.whatyougetList {
+    position: relative;
+    color: #B0B4B6;
+    list-style: none;
+    text-align: left;
+    font-size: 14px;
+    padding: 0;
+}
+
+.whatyougetList li {
+    margin: 1px 0;
+    padding: 3px 0;
+}
+
+.whatyougetList li:nth-child(odd) {
+    background-color: #e8f2fb;
+}
+
+.whatyougetList li:nth-child(even) {
+    background-color: #f5f5f6;
+}
+
+.whatyougetList li:before {
+    content: url("task1.png");
+    margin-left: 30px;
+    margin-right: 15px;
+}
+
+.enroll {
+    display: block;
+    /*background-color: #ee8129;*/
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    padding: 6px 25px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    /* box-shadow: 0 2px #b3560b;*/
+}
+
+.PriceBox1 .enroll,
+.PriceBox3 .enroll {
+    background-color: #3371a6;
+    box-shadow: 0 2px #16436a;
+}
+
+.PriceBox2 .enroll {
+    background-color: #ee8129;
+    box-shadow: 0 2px #b3560b;
+    margin-bottom: 33px;
+}
