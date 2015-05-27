@@ -73,7 +73,7 @@ table {
 body {
     margin: 0 auto;
     max-width: 1400px;
-    min-width: 1000px;
+    /*min-width: 1000px;*/
     font-family: Helvetica, Arial;
 }
 
@@ -91,7 +91,7 @@ header {
 
 .header {
     position: relative;
-    width: 1000px;
+    width: 980px;
     margin: 0 auto;
     height: 55px;
 }
@@ -103,6 +103,7 @@ header {
 .company_logo {
     display: block;
     float: left;
+    padding-left: 10px;
 }
 
 .company_name {
@@ -161,14 +162,18 @@ header {
     background-size: cover;
     color: white;
     background-position: 0 25%;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
     position: relative;
 }
 
 .banner_container {
-    padding: 60px 0 110px 170px;
-    width: 56%;
+    width: 980px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.banner_welcome {
+    padding: 75px 0 110px 10px;
     float: left;
     line-height: 1.3;
 }
@@ -180,7 +185,7 @@ header {
 }
 
 .banner_container p {
-    font-size: 30px;
+    font-size: 29px;
 }
 
 /*================== BANNER FORM ==================*/
@@ -191,10 +196,10 @@ header {
 }
 
 .form-body {
-    width: 345px;
+    width: 360px;
     position: absolute;
     top: 30px;
-    left: 80px;
+    left: 71px;
     padding: 30px 15px 36px;
     background-color: #fff;
     border-bottom: 5px solid #3498db;
@@ -202,7 +207,6 @@ header {
 
 .form_title {
     padding: 0 0 25px;
-    font-weight: bold;
     text-align: center;
     font-size: 25px;
     color: #333;
@@ -253,64 +257,76 @@ header {
 .about {
     background-color: #f2f2f2;
     color: #333;
-    padding: 30px 0 40px 170px;
 }
 
 .about_container {
-    width: 60%;
+    padding: 25px 0 40px 10px;
+    width: 980px;
+    margin: 0 auto;
 }
 
-.about_container h1 {
-    font-size: 14px;
+.about_title {
+    display: block;
+    width: 570px;
+    font-size: 16px;
     font-weight: bold;
-    padding: 0 0 25px;
+    padding: 0 0 20px;
 }
 
-.about_container p {
-    font-size: 15px;
-    padding-bottom: 25px;
+.about_content {
+    display: block;
+    width: 570px;
+    font-size: 13px;
+    padding-bottom: 20px;
     line-height: 1.4;
 }
 
 /*================== END ABOUT ==================*/
 
 /*================== ADVANTAGES ==================*/
+.advantages {
+    width: 980px;
+    margin: 0 auto;
+    border-bottom: 1px solid #f2f2f2;
+}
+
 .advantages_list {
     width: 100%;
     overflow: hidden;
-    margin: 0 auto;
-    padding: 25px 170px 20px 170px;
-    text-align: center;
+    padding: 25px 0 30px 10px;
 }
 
 .advantages_title {
     color: #3498db;
-    padding: 35px 0 0 170px;
+    padding: 35px 0 0 10px;
     font-size: 22px;
 }
 
 .advantages_item {
     width: 290px;
     float: left;
-    margin-right: 69px;
     font-size: 13px;
 }
 
 .advantages_item_title {
+    display: block;
     font-size: 15px;
     font-weight: bold;
     padding: 20px 0;
+    text-align: center;
 }
 
 .advantages_item_content {
     text-align: center;
     line-height: 1.5em;
     height: 115px;
+    width: 275px;
     overflow: hidden;
+    margin: 0 auto;
 }
 
-.advantages_item:last-child {
-    margin: 0;
+.advantages_item_center {
+    margin: 0 50px;
 }
 
 .advantages_item_button {
@@ -319,12 +335,30 @@ header {
     margin: 20px auto 0;
     border: 1px solid #e6e6e6;
     border-radius: 50%;
-    padding: 20px 0;
+    padding: 19px 7px;
     display: block;
     color: #333;
     text-decoration: none;
 }
 
 .advantages_item_button:hover {
-    background-color: #f2f2f2;
+    /*background-color: #eee;*/
+    border: 1px solid #999;
+}
+
+/*================== END ADVANTAGES ==================*/
+
+/*================== COMMENTS ==================*/
+.comments{
+    display: block;
+    position: relative;
+    width: 980px;
+    padding:35px 0 0 10px;
+    margin: 0 auto;
+}
+
+.comments_title{
+    font-size: 25px;
+    color: #3498db;
+    padding-bottom: 25px;
 }
