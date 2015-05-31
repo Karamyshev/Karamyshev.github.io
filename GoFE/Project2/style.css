@@ -492,12 +492,14 @@ footer {
 
 footer .company {
     float: left;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 footer .company_name {
     padding-top: 8px;
-    width: 175px;
+    padding-right: 8px;
+    width: 188px;
+    height: 73px;
     border-right: 1px solid #2980b9;
 }
 
@@ -505,6 +507,7 @@ footer .connect {
     float: left;
     margin: 0;
     padding-top: 5px;
+
 }
 
 .copyright {
