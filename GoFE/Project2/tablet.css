@@ -51,7 +51,6 @@
 
     .form_button {
         font-size: 20px;
-        max-width: 220px;
     }
 
     /*================== ABOUT ==================*/
@@ -113,7 +112,7 @@
     }
 
     .comments_title{
-        font-size: 20px;
+        font-size: 25px;
         width: 75%;
     }
 
