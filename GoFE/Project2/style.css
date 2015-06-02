@@ -143,7 +143,7 @@ header {
 
 }
 
-.connect__list a:hover{
+.connect__list a:hover {
     -webkit-transform: scale(1.3, 1.3);
     -ms-transform: scale(1.3, 1.3);
     -moz-transform: scale(1.3, 1.3);
