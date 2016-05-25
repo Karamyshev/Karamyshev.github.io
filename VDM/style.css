@@ -1,0 +1,286 @@
+﻿html, body {
+	height: 100%;
+}
+
+body {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.wrapper {
+	width: 1345px;
+	margin: 0 auto;
+}
+
+header {
+	position: relative;
+	background-image: url(фото/1-26.jpg);
+	background-repeat: no-repeat;
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+	-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+	-o-background-size: 100%; /* Opera 9.6+ */
+	background-size: 100%; /* Современные браузеры */
+	margin: 0 auto;
+	height: 625px;
+	width: 100%;
+}
+
+.diamond_center {
+	position: absolute;
+	top: 145px;
+	left: 43%;
+	width: 350px;
+	height: 350px;
+	background: #fff;
+	opacity: 0.9;
+	/* Rotate */
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	/* Rotate Origin */
+	-webkit-transform-origin: 0 100%;
+	-moz-transform-origin: 0 100%;
+	-ms-transform-origin: 0 100%;
+	-o-transform-origin: 0 100%;
+	transform-origin: 0 100%;
+}
+
+.logo {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.triangle_down  {
+	position: absolute;
+	top: 1px;
+	left: 15%;
+	width: 0;
+	height: 0;
+	border-left: 160px solid transparent;
+	border-right: 160px solid transparent;
+	border-top: 160px solid #fff;
+	opacity: 0.9;
+}
+
+.triangle_down_link {
+	width: 200px;
+	top: -125px;
+	left: -95px;
+	font-size: 22px;
+	color: #000;
+	position: absolute;
+}
+
+a {
+	text-decoration: none;
+}
+
+.triangle_bottomleft {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-bottom: 600px solid #623486; 
+	border-right: 620px solid transparent;
+	opacity: 0.6;
+}
+
+.triangle_bottomleft_2 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-bottom: 560px solid #623486;  
+	border-right: 580px solid transparent;
+	z-index: 10;
+}
+
+.diamond_bottomright {
+	position: absolute;
+	bottom: 0;
+	left: 52.5%;
+	width: 167px;
+	height: 167px;
+	background: #fff;
+	opacity: 0.9;
+	/* Rotate */
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	/* Rotate Origin */
+	-webkit-transform-origin: 0 100%;
+	-moz-transform-origin: 0 100%;
+	-ms-transform-origin: 0 100%;
+	-o-transform-origin: 0 100%;
+	transform-origin: 0 100%;
+}
+
+.diamond_bottomright_link {
+	display: block;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	font-size: 22px;
+	color: #000;
+	position: absolute;
+	width: 170px;
+	top: 73px;
+	left: 0;
+}
+
+#about {
+	position: relative;
+	width: 100%;
+	padding: 20px;
+	margin: 50px 0;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.about{
+	margin: 0 auto;
+	/* text-align: center; */
+	width: 60%;
+}
+
+.title {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: normal;
+	margin: 0;
+	padding-bottom: 20px;
+}
+
+.text {
+	font-size: 18px;
+	line-height: 2em;
+        text-align: center;
+}
+
+#conference_service,
+#rent_staff,
+#rent_furniture,
+#catering,
+#portfolio       {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.conference_service_banner {
+	background-image: url(фото/8903.jpg);
+	background-repeat: no-repeat;
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+	-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+	-o-background-size: 100%; /* Opera 9.6+ */
+	background-size: 100%; /* Современные браузеры */
+	height: 650px;
+}
+
+.triangle_right {
+	position: absolute;
+	top: -120px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-top: 450px solid transparent;
+	border-left: 670px solid #fff;
+	border-bottom: 450px solid transparent;
+}
+
+.title_left {
+	position: absolute;
+	top: 300px;
+	left: 200px;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.conference_service_article,
+.rent_staff_article,
+.rent_furniture_article,
+.catering_article {
+	margin: 50px auto;
+	padding: 20px;
+	text-align: center;
+	width: 70%;
+	overflow: hidden;
+}
+
+.rent_staff_banner {
+	background-image: url(фото/97139-3.jpg);
+	background-repeat: no-repeat;
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+	-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+	-o-background-size: 100%; /* Opera 9.6+ */
+	background-size: 100%; /* Современные браузеры */
+	height: 650px;
+}
+
+.triangle_left {
+	position: absolute;
+	top: -120px;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-top: 450px solid transparent;
+	border-left: 670px solid #fff;
+	border-bottom: 450px solid transparent;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.title_right {
+	position: absolute;
+	top: 300px;
+	right: 200px;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.rent_furniture_banner {
+	background-image: url(фото/furniture_banner.jpg);
+	background-repeat: no-repeat;
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+	-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+	-o-background-size: 100%; /* Opera 9.6+ */
+	background-size: 100%; /* Современные браузеры */
+	height: 650px;
+}
+
+.catering_banner {
+	background-image: url(фото/catering.jpg);
+	background-repeat: no-repeat;
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+	-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+	-o-background-size: 100%; /* Opera 9.6+ */
+	background-size: 100%; /* Современные браузеры */
+	height: 650px;
+}
+
+.gallery {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.gallery img {
+	margin: 6px;
+}
+
+a.photo:hover img {
+	opacity: 0.6;
+}
