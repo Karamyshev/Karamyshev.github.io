@@ -14,7 +14,7 @@ body {
 
 header {
 	position: relative;
-	background-image: url(фото/1-26.jpg);
+	background-image: url(img/1-26.jpg);
 	background-repeat: no-repeat;
 	-moz-background-size: 100%; /* Firefox 3.6+ */
 	-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
@@ -179,7 +179,7 @@ a {
 }
 
 .conference_service_banner {
-	background-image: url(фото/8903.jpg);
+	background-image: url(img/8903.jpg);
 	background-repeat: no-repeat;
 	-moz-background-size: 100%; /* Firefox 3.6+ */
 	-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
@@ -219,7 +219,7 @@ a {
 }
 
 .rent_staff_banner {
-	background-image: url(фото/97139-3.jpg);
+	background-image: url(img/97139-3.jpg);
 	background-repeat: no-repeat;
 	-moz-background-size: 100%; /* Firefox 3.6+ */
 	-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
@@ -253,7 +253,7 @@ a {
 }
 
 .rent_furniture_banner {
-	background-image: url(фото/furniture_banner.jpg);
+	background-image: url(img/furniture_banner.jpg);
 	background-repeat: no-repeat;
 	-moz-background-size: 100%; /* Firefox 3.6+ */
 	-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
@@ -263,7 +263,7 @@ a {
 }
 
 .catering_banner {
-	background-image: url(фото/catering.jpg);
+	background-image: url(img/catering.jpg);
 	background-repeat: no-repeat;
 	-moz-background-size: 100%; /* Firefox 3.6+ */
 	-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
