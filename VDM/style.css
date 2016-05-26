@@ -1,4 +1,4 @@
-﻿html, body {
+html, body {
 	height: 100%;
 }
 
@@ -14,7 +14,7 @@ body {
 
 header {
 	position: relative;
-	background-image: url(img/1-26.jpg);
+	background-image: url(фото/1-26.jpg);
 	background-repeat: no-repeat;
 	-moz-background-size: 100%; /* Firefox 3.6+ */
 	-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
@@ -142,7 +142,6 @@ a {
 #about {
 	position: relative;
 	width: 100%;
-	padding: 20px;
 	margin: 50px 0;
 	background-color: #fff;
 	overflow: hidden;
@@ -150,8 +149,8 @@ a {
 
 .about{
 	margin: 0 auto;
-	/* text-align: center; */
-	width: 60%;
+	text-align: center;
+	width: 70%;
 }
 
 .title {
@@ -165,7 +164,6 @@ a {
 .text {
 	font-size: 18px;
 	line-height: 2em;
-        text-align: center;
 }
 
 #conference_service,
@@ -176,10 +174,11 @@ a {
 	position: relative;
 	margin: 0 auto;
 	width: 100%;
+	background-color: #fff;
 }
 
 .conference_service_banner {
-	background-image: url(img/8903.JPG);
+	background-image: url(фото/8903.jpg);
 	background-repeat: no-repeat;
 	-moz-background-size: 100%; /* Firefox 3.6+ */
 	-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
@@ -191,7 +190,7 @@ a {
 .triangle_right {
 	position: absolute;
 	top: -120px;
-	left: 0;
+	left: -2px;
 	width: 0;
 	height: 0;
 	border-top: 450px solid transparent;
@@ -219,7 +218,7 @@ a {
 }
 
 .rent_staff_banner {
-	background-image: url(img/97139-3.jpg);
+	background-image: url(фото/97139-3.jpg);
 	background-repeat: no-repeat;
 	-moz-background-size: 100%; /* Firefox 3.6+ */
 	-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
@@ -231,7 +230,7 @@ a {
 .triangle_left {
 	position: absolute;
 	top: -120px;
-	right: 0;
+	right: -2px;
 	width: 0;
 	height: 0;
 	border-top: 450px solid transparent;
@@ -253,7 +252,7 @@ a {
 }
 
 .rent_furniture_banner {
-	background-image: url(img/furniture_banner.JPG);
+	background-image: url(фото/furniture_banner.jpg);
 	background-repeat: no-repeat;
 	-moz-background-size: 100%; /* Firefox 3.6+ */
 	-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
@@ -263,7 +262,7 @@ a {
 }
 
 .catering_banner {
-	background-image: url(img/catering.jpg);
+	background-image: url(фото/catering.jpg);
 	background-repeat: no-repeat;
 	-moz-background-size: 100%; /* Firefox 3.6+ */
 	-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
@@ -274,7 +273,8 @@ a {
 
 .gallery {
 	margin: 0 auto;
-	width: 80%;
+	width: 75%;
+	padding:  50px 0 20px;
 }
 
 .gallery img {
@@ -283,4 +283,35 @@ a {
 
 a.photo:hover img {
 	opacity: 0.6;
+}
+
+#contact {
+	margin-top: 50px;
+}
+
+.map {
+	padding-top: 50px;
+}
+
+.map_triangle_left {
+	/*position: absolute;
+	top: -120px;
+	right: -2px;
+	width: 0;
+	height: 0;
+	border-top: 450px solid transparent;
+	border-left: 600px solid #623486;
+	border-bottom: 450px solid transparent;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);*/
+	position: relative;	
+}
+
+.arrow_purple {
+position: absolute;
+top: -665px;
+right: 0;
 }
