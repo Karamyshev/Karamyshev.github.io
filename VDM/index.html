@@ -7,18 +7,15 @@
 	<title>VDM Group</title>
 	<link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+  <link rel="stylesheet" href="animate.css">
   <link rel="stylesheet" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-<script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+  <script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
   <script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-<script type="text/javascript">
+  <script type="text/javascript">
     $(document).ready(function() {
-      /*
-      *   Examples - images
-      */
-
       $("a.photo").fancybox();
-      });
+    });
   </script>
 
   <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -43,12 +40,15 @@
      <div class="triangle_down">
        <a href = "#conference_service" class = "triangle_down_link" title = "Конференс сервіс" >Конференс сервіс</a>
      </div>
-     <div class= "triangle_bottomleft">  </div>
-     <div class="triangle_bottomleft_2"> </div>
+     
      <div class="diamond_bottomright"> 
       <a class = "diamond_bottomright_link" title = "Оренда техніки" href = "#rent_staff">Оренда техніки</a>
     </div>
-
+    <div class="diamond_bottomleft"> 
+    <a class = "diamond_bottomleft_link" title = "Оренда меблів" href = "#rent_furniture">Оренда меблів</a>
+    </div>
+    <div class= "triangle_bottomleft">  </div>
+    <div class="triangle_bottomleft_2"> </div>
   </header>
   <!--====  End of HEADER  ====-->
 
@@ -73,7 +73,9 @@
   =========================================-->
   <section id="conference_service">
    <div class="conference_service_banner"></div>
-   <div class="triangle_right"></div>
+   <div class="triangle_right">
+     <img src="img/arrow_white.png" height="685" alt="">
+   </div>
    <h3 class="title_left">Конференс сервіс</h3>
    <article class="conference_service_article">
     <p class="text">
@@ -93,7 +95,9 @@
 =================================-->
 <section id="rent_staff">
  <div class="rent_staff_banner"></div>
- <div class="triangle_left"></div>
+ <div class="triangle_left">
+   <img src="img/arrow_white.png" height="685" alt="">
+ </div>
  <h3 class="title_right">Оренда техніки</h3>
  <article class="rent_staff_article">
   <p class="text">
@@ -112,7 +116,9 @@
 =====================================-->
 <section id="rent_furniture">
  <div class="rent_furniture_banner"></div>
- <div class="triangle_right"></div>
+ <div class="triangle_right">
+   <img src="img/arrow_white.png" height="685" alt="">
+ </div>
  <h3 class="title_left">Оренда меблів</h3>
  <article class="rent_furniture_article">
   <p class="text">
@@ -131,7 +137,9 @@
 ===============================-->
 <section id="catering">
  <div class="catering_banner"></div>
- <div class="triangle_left"></div>
+ <div class="triangle_left">
+   <img src="img/arrow_white.png" height="685" alt="">
+ </div>
  <h3 class="title_right">Кейтеринг</h3>
  <article class="catering_article">
   <p class="text">
@@ -174,13 +182,13 @@
 =            CONTACT            =
 ==============================-->
 <section id="contact">
-<h2 class="title">Контакти</h2>
+  <h2 class="title">Контакти</h2>
   <div class="map">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.676608691293!2d30.455454612870536!3d50.428496646176065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cea55799a03b%3A0xc0546258cdd2d6f9!2z0J7Rh9Cw0LrRltCy0YHRjNC60LjQuSDQkdCm!5e0!3m2!1sru!2s!4v1464209886734" width="1345" height="650" frameborder="0" style="border:0" allowfullscreen></iframe>
     <div class="map_triangle_left">
-	<img class = "arrow_purple" src = "img/arrow_purple.png" height = "670" alt = ""/>
-	</div>
-  </div>
+     <img class = "arrow_purple" src = "img/arrow_purple.png" height = "677" alt = ""/>
+   </div>
+ </div>
 </section>
 
 
