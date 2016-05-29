@@ -6,12 +6,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>VDM Group</title>
 	<link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
   <link rel="stylesheet" href="animate.css">
   <link rel="stylesheet" href="style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
   <script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
   <script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  <script type="text/javascript" src="wow.min.js"></script>
+  <script type="text/javascript">
+    new WOW().init();
+  </script>
   <script type="text/javascript">
     $(document).ready(function() {
       $("a.photo").fancybox();
@@ -33,19 +38,22 @@
   =            HEADER            =
   =============================-->
   <header>
-  	<div class="diamond_center">
+  	<div class="diamond_center wow fadeIn"data-wow-delay="3s" data-wow-duration="6s">
      <a href="/">
        <img class="logo" src="img/logo.png" alt="VDM Group logo" width="340px" height="340px"></a>
      </div>
-     <div class="triangle_down">
+     <div class="triangle_down wow slideInDown" data-wow-delay="2s" data-wow-duration="1.5s">
        <a href = "#conference_service" class = "triangle_down_link" title = "Конференс сервіс" >Конференс сервіс</a>
      </div>
      
-     <div class="diamond_bottomright"> 
+     <div class="diamond_bottomright wow fadeIn" data-wow-duration="3s"> 
       <a class = "diamond_bottomright_link" title = "Оренда техніки" href = "#rent_staff">Оренда техніки</a>
     </div>
-    <div class="diamond_bottomleft"> 
-    <a class = "diamond_bottomleft_link" title = "Оренда меблів" href = "#rent_furniture">Оренда меблів</a>
+    <div class="diamond_bottomleft wow fadeIn" data-wow-delay="2s" data-wow-duration="3s"> 
+      <a class = "diamond_bottomleft_link" title = "Оренда меблів" href = "#rent_furniture">Оренда меблів</a>
+    </div>
+    <div class="triangle_up wow fadeIn" data-wow-delay="3s" data-wow-duration="3s">
+      <a href="#catering" class="triangle_up_link">Кейтеринг</a>
     </div>
     <div class= "triangle_bottomleft">  </div>
     <div class="triangle_bottomleft_2"> </div>
@@ -73,10 +81,10 @@
   =========================================-->
   <section id="conference_service">
    <div class="conference_service_banner"></div>
-   <div class="triangle_right">
-     <img src="img/arrow_white.png" height="685" alt="">
+   <div class="triangle_right wow slideInLeft" data-wow-delay="0.1s" data-wow-duration="1s" data-wow-offset="500">
+     <img src="img/arrow_white_right.png" height="685" alt="">
    </div>
-   <h3 class="title_left">Конференс сервіс</h3>
+   <h3 class="title_left wow fadeIn" data-wow-delay="1.2s" data-wow-duration="1.5s">Конференс сервіс</h3>
    <article class="conference_service_article">
     <p class="text">
       Консультації з питань організації та планування заходів (семінари, конференції, виставки,презентації, тренінги, ділові 
@@ -95,10 +103,10 @@
 =================================-->
 <section id="rent_staff">
  <div class="rent_staff_banner"></div>
- <div class="triangle_left">
-   <img src="img/arrow_white.png" height="685" alt="">
+ <div class="triangle_left wow slideInRight" data-wow-delay="0.1s" data-wow-duration="1s" data-wow-offset="500">
+   <img src="img/arrow_white_left.png" height="685" alt="">
  </div>
- <h3 class="title_right">Оренда техніки</h3>
+ <h3 class="title_right wow fadeIn" data-wow-delay="1.2s" data-wow-duration="1.5s">Оренда техніки</h3>
  <article class="rent_staff_article">
   <p class="text">
     Технічна підтримка заходу: проекційне обладнання, системи звукопідсилення, світлове обладнання,
@@ -116,10 +124,10 @@
 =====================================-->
 <section id="rent_furniture">
  <div class="rent_furniture_banner"></div>
- <div class="triangle_right">
-   <img src="img/arrow_white.png" height="685" alt="">
+ <div class="triangle_right wow slideInLeft" data-wow-delay="0.1s" data-wow-duration="1s" data-wow-offset="500">
+   <img src="img/arrow_white_right.png" height="685" alt="">
  </div>
- <h3 class="title_left">Оренда меблів</h3>
+ <h3 class="title_left wow fadeIn" data-wow-delay="1.2s" data-wow-duration="1.5s">Оренда меблів</h3>
  <article class="rent_furniture_article">
   <p class="text">
     Послуги з автоперевезення (оренда автобусів, мікроавтобусів, легкових автомобілів)
@@ -137,10 +145,10 @@
 ===============================-->
 <section id="catering">
  <div class="catering_banner"></div>
- <div class="triangle_left">
-   <img src="img/arrow_white.png" height="685" alt="">
+ <div class="triangle_left wow slideInRight" data-wow-delay="0.1s" data-wow-duration="1s" data-wow-offset="500">
+   <img src="img/arrow_white_left.png" height="685" alt="">
  </div>
- <h3 class="title_right">Кейтеринг</h3>
+ <h3 class="title_right wow fadeIn" data-wow-delay="1.2s" data-wow-duration="1.5s">Кейтеринг</h3>
  <article class="catering_article">
   <p class="text">
     Послуги в організації банкету , фуршету , кофе- брейку , комплексного обіду ,весільної церемонії ,проведенні 
@@ -188,7 +196,31 @@
     <div class="map_triangle_left">
      <img class = "arrow_purple" src = "img/arrow_purple.png" height = "677" alt = ""/>
    </div>
- </div>
+   <div class="connect">
+     <h3>КОНТАКТИ:</h3>
+     <p>вул.Очаківська 5/6, БЦ "Очаківський"</p>
+     <a href="tel:+380442099882"> 044 2099882 </a>
+     <ul class="connect__list">
+      <li class="connect__item facebook ">
+      <a href="https://www.facebook.com/VDM-Group-614194575399358/" target="_blank">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+      <li class="connect__item instagram">
+        <a href="https://www.instagram.com/kets39/" target="_blank">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</div>
 </section>
 
 
